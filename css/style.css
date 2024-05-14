@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/background_first.png') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+    
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    padding-top: 14px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h1 {
+    padding-top: 53px;
+}
+
+.title {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f9bf3b;
+}
+
+.simple .title_big {
+    padding-top: 21px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2.title {
+    padding-top: 30px;
+}
+
+.promo_text {
+    padding: 0 13px;
+    padding-top: 23px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.promo_text_spun {
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.22);
+    box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.17);
+
+    font-family: 'Roboto Condensed';
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.promo .more .more_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.promo .more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
