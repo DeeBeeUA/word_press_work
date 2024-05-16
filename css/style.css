@@ -75,7 +75,7 @@ h2.title {
     color: #f9bf3b;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -118,7 +118,7 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     text-align: center;
     font-family: Roboto;
     font-size: 30px;
@@ -127,7 +127,11 @@ h2.title {
     color: #252525;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #efefef;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     margin: 0 auto;
     margin-top: 18px;
     width: 217px;
@@ -205,4 +209,73 @@ h2.title {
     top: -48px;
     left: -240px;
     z-index: -1;
+}
+
+/* finish_section */
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/background_second.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #efefef;
+}
+
+/* gift_section */
+
+.gift {
+    padding: 86px 0 83px 0;
+    min-height: 628px;
+    background-color: #efefef;
+}
+
+.gift .gift_img_bow {
+    /* padding-left: 526px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.gift .gift_img_box {
+    display: flex;
+    justify-content: center;
+}
+
+.gift .gift_text {
+    margin-top: 42px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
 }
