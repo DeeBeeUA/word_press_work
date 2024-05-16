@@ -279,3 +279,45 @@ h2.title {
     font-weight: 400;
     color: #252525;
 }
+
+/* vebinar_section */
+
+.vebinar {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.vebinar .vebinar_img {
+    display: flex;
+    justify-content: center;
+}
+
+.vebinar .vebinar_descr {
+    margin: 37px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.vebinar .vebinar_meeting {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.vebinar .vebinar_text {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
